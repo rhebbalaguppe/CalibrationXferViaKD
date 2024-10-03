@@ -1,5 +1,7 @@
 # Source Code for the paper: 
 # Calibration Transfer via Knowledge Distillation
+Deep neural network (DNN) models have become increasingly prevalent in critical applications such as healthcare , and autonomous driving. In such applications, it is crucial for DNN predictions to not only be accurate but also trustworthy. Calibration refers to the alignment between a DNN model's predicted confidence and the actual frequency of the event it represents. Calibration indicates model's ability to provide reliable uncertainty estimates, and many modern DNNs are shown to be miscalibrated.
+
 ## Setting Up Environment:
 Run `setup_env.sh` file to set up your environment (creates a new Conda environment with name `kd`):
 ```
